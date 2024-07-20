@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Project from "./Project";
-import { Container } from "reactstrap";
 import { ToastContainer } from "react-toastify";
+import { Container } from "reactstrap";
+import Project from "./Project";
 
 function AllProjects() {
   // This UseState is to store the data in key Value pair and use it in below using map function.

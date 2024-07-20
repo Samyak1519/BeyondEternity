@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
-import { Button, Navbar, NavbarBrand } from "reactstrap";
+import { Button, Navbar } from "reactstrap";
 
 function Header({ name }) {
   // (Object Destructuring = {})Passing Name in this Function same like codes. [Props]

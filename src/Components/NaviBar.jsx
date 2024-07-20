@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Container, Navbar, NavbarBrand, Table } from "reactstrap";
+import { Container, Navbar, Table } from "reactstrap";
 
 function NaviBar() {
   const [isOpen, setIsOpen] = useState(false);

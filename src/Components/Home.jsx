@@ -1,8 +1,16 @@
-import { ToastContainer, toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import { Button, Container } from "reactstrap";
 
 function Home() {
-  const nextPage = () => toast.info("Next page in not ready yet");
+  // var nextPage = () => toast.info("Next page in not ready yet");
+
+  const navigate = useNavigate();
+
+  const nextPage = () => {
+    navigate("/all-projects");
+  };
+
   return (
     <>
       <ToastContainer />
